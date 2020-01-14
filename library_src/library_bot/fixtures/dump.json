@@ -1,0 +1,92 @@
+[
+{
+  "model": "library_bot.user",
+  "pk": 1,
+  "fields": {
+    "telegram_id": 123321,
+    "fullname": "\u0428\u0435\u0439\u0448\u0435\u043d\u043e\u0432 \u0410\u0437\u0430\u043c\u0430\u0442",
+    "blocked": false,
+    "created_at": "2020-01-10T05:53:25.847Z",
+    "updated_at": "2020-01-10T05:53:25.847Z"
+  }
+},
+{
+  "model": "library_bot.user",
+  "pk": 3,
+  "fields": {
+    "telegram_id": 123321,
+    "fullname": "\u0410\u043b\u0438\u0448\u0435\u0440 \u0410\u043b\u0438\u043a\u0443\u043b\u043e\u0432",
+    "blocked": false,
+    "created_at": "2020-01-10T09:48:56.441Z",
+    "updated_at": "2020-01-10T09:48:56.441Z"
+  }
+},
+{
+  "model": "library_bot.book",
+  "pk": 5,
+  "fields": {
+    "name": "\u0410\u043d\u0433\u0435\u043b\u044b \u0438 \u0434\u0435\u043c\u043e\u043d\u044b",
+    "author": "\u0414\u044d\u043d \u0411\u0440\u0430\u0443\u043d",
+    "year": 2012,
+    "count": "10"
+  }
+},
+{
+  "model": "library_bot.book",
+  "pk": 6,
+  "fields": {
+    "name": "\u041f\u043b\u0430\u043c\u044f \u0438 \u043a\u0440\u043e\u0432\u044c",
+    "author": "\u0414\u0436\u043e\u0440\u0434\u0436 \u0420\u044d\u0439\u043c\u043e\u043d\u0434 \u0420\u0438\u0447\u0430\u0440\u0434 \u041c\u0430\u0440\u0442\u0438\u043d",
+    "year": 2005,
+    "count": "2"
+  }
+},
+{
+  "model": "library_bot.book",
+  "pk": 7,
+  "fields": {
+    "name": "\u041f\u0440\u043e\u0438\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435",
+    "author": "\u0414\u044d\u043d \u0411\u0440\u0430\u0443\u043d",
+    "year": 2003,
+    "count": "3"
+  }
+},
+{
+  "model": "library_bot.book",
+  "pk": 8,
+  "fields": {
+    "name": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430",
+    "author": "\u041c\u0438\u0445\u0430\u0438\u043b \u0411\u0443\u043b\u0433\u0430\u043a\u043e\u0432",
+    "year": 1993,
+    "count": "5"
+  }
+},
+{
+  "model": "library_bot.book",
+  "pk": 9,
+  "fields": {
+    "name": "\u0426\u0432\u0435\u0442\u044b \u0434\u043b\u044f \u042d\u043b\u0434\u0436\u0435\u0440\u043d\u043e\u043d\u0430",
+    "author": "\u0414\u044d\u043d\u0438\u0435\u043b \u041a\u0438\u0437",
+    "year": 2001,
+    "count": "3"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$na4mZZgAs0sT$1TBtUE+4eHioNBt93eK8AZTEiSIAWyajnNsUmwBZ5ZQ=",
+    "last_login": "2020-01-10T05:44:15.814Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-01-10T05:43:54.854Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
