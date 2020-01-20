@@ -1,4 +1,14 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+import json
+import requests
+from config import API_BASE_URL
+
+
+def get_users_from_api(user_data):
+    response = user_data.GET.get(API_BASE_URL + "api/search_books/")
+    if response.status_code == 200:
+        user_data = json.loads(response.text)["users"]
+    return []
 
 
 def build_menu(buttons,
@@ -14,13 +24,6 @@ def build_menu(buttons,
 
 
 def handle_command(bot, update):
-    user_id = update.effective_user.id
-    # bot.send_message(chat_id=update.message.chat_id, text="Здравствуйте, я бот BeeLibrary")
-
-    button_list = [
-        InlineKeyboardButton("col1", callback_data=213),
-        InlineKeyboardButton("col2", callback_data=213),
-        InlineKeyboardButton("row 2", callback_data=213)
-    ]
-    reply_markup = InlineKeyboardMarkup(build_menu(button_list, n_cols=2))
-    bot.send_message(chat_id=update.message.chat_id, text="A two-column menu", reply_markup=reply_markup, parse_mode='HTML')
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text="Здравствуйте! Я бот BeeLibrary! Введите пожалуйста ФИО")

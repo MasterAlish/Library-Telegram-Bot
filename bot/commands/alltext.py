@@ -2,6 +2,7 @@ from bot_core.router import process_text_message
 from commands.books import search_books
 from commands.text.funny import say_my_name, aaaa
 
+
 text_patterns = [
     ("[Сс]кажи (?P<name>.*)", say_my_name),
     ("[Нн]айди книг[иу] (?P<keyword>.*)", search_books),
