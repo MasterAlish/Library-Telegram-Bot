@@ -10,7 +10,7 @@ def build_menu(buttons,
     return menu
 
 
-def handle_command(bot, update):
-    bot.send_message(
+def handle_command(update, context):
+    context.bot.send_message(
         chat_id=update.message.chat_id,
         text="Привет, %s! Давайте зарегистрируемся? Нажмите - /iam." % update.effective_user.first_name)

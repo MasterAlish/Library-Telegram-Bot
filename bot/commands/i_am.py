@@ -1,15 +1,11 @@
 import json
-from typing import re
-
-import telebot
-
-from telebot import types
+import re
 
 import requests
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, update, bot
+from telegram import InlineKeyboardButton, ReplyKeyboardMarkup
 from telegram.ext.conversationhandler import ConversationHandler
 
-from commands.start import build_menu
+from commands.books import show_book_actions
 from config import API_BASE_URL
 
 
@@ -46,31 +42,28 @@ def save_user_name(telegram_id, fullname):
     return response.status_code == 200
 
 
-def who_are_you(bot, update):
-    bot.send_message(
+def who_are_you(update, context):
+    context.bot.send_message(
         chat_id=update.message.chat_id,
         text="Пожалуйста введите свое ФИО")
 
     return State.SAVE_NAME
 
 
-def save_name(bot, update):
+def save_name(update, context):
     save_user_name(update.effective_user.id, update.effective_message.text)
-    bot.send_message(
+    context.bot.send_message(
         chat_id=update.message.chat_id,
         text="Вы для меня теперь '" + update.effective_message.text + "'")
     button_list = [
         InlineKeyboardButton("Взять книгу", callback_data='get_book'),
         InlineKeyboardButton("Вернуть книгу", callback_data='return_book'),
     ]
-    reply_markup = InlineKeyboardMarkup(build_menu(button_list, n_cols=2))
-    bot.send_message(chat_id=update.message.chat_id, text="Выберите действие:", reply_markup=reply_markup,
-                     parse_mode='HTML')
-
+    show_book_actions(update)
     return ConversationHandler.END
 
 
-def cancel(bot, update):
-    bot.send_message(
+def cancel(update, context):
+    context.bot.send_message(
         chat_id=update.message.chat_id,
         text="Ну пока, тогда!")
