@@ -1,11 +1,14 @@
+from django.utils import timezone
 from django.http import JsonResponse
 from django.http.response import HttpResponse
+from django.shortcuts import  get_object_or_404
 
 from library_bot import models
 from django.db.models import Q
 
 SUCCESS = "SUCCESS"
 ERROR = "ERROR"
+timezone.now()
 
 
 def response(status, data, message=None, status_code=200):
@@ -82,15 +85,42 @@ def register_book(request, *args, **kwargs):
                 user = models.User.objects.get(telegram_id=telegram_id)
                 book = models.Book.objects.get(pk=book_id)
                 models.UseLog.objects.create(
-                    user_id = user,
-                    book_id = book,
+                    user_id=user,
+                    book_id=book,
                     days=1,
-                    book_name = book.name,
-                    book_author = book.author
+                    book_name=book.name,
+                    book_author=book.author,
                 )
                 return response(SUCCESS, {})
             else:
                 return response(ERROR, None, "Пользователь или книга не найдены", 400)
+        else:
+            return response(ERROR, None, "Required params: telegram_id, fullname", 400)
+    else:
+        return HttpResponse(status=405)
+
+
+def register_return_book(request, *args, **kwargs):
+    if request.method == 'POST':
+        book = request.POST.get("book_id", "")
+        telegram = request.POST.get("telegram_id", "")
+        date = request.POST.get("return_date", "")
+        if book and telegram:
+            book = models.Book.objects.filter(id=book)
+            user = models.User.objects.filter(telegram_id=telegram)
+            if book.exists() and user.exists():
+                book = book.first()
+                user = user.first()
+                models.UseLog.objects.filter(
+                    book_id=book,
+                    user_id=user,
+                    return_date__isnull=True
+                ).update(
+                    return_date=date
+                )
+                return response(SUCCESS, {})
+            else:
+                return response(ERROR, None, "На вас нет зарегистрированных книг", 400)
         else:
             return response(ERROR, None, "Required params: telegram_id, fullname", 400)
     else:

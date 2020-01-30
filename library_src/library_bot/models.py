@@ -29,7 +29,7 @@ class UseLog(models.Model):
     book_id = models.ForeignKey(Book, null=True, blank=True, on_delete=models.CASCADE)
     take_date = models.DateTimeField(auto_now_add=True, verbose_name='Дата регистрации книги')
     days = models.IntegerField(verbose_name='Количество дней')
-    return_date = models.DateTimeField(auto_now_add=True, null=True, blank=True, verbose_name='Дата возврата книги:')
+    return_date = models.DateTimeField(auto_now_add=False, null=True, blank=True, verbose_name='Дата возврата книги:')
 
     def __str__(self):
         return "{}. {}".format(self.user_id, self.book_name, self.book_author, self.book_id, self.take_date, self.days, self.return_date)
