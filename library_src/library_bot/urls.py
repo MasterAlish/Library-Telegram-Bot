@@ -9,4 +9,5 @@ urlpatterns = [
     url('register_user/', csrf_exempt(views.register_user)),
     url('register_book/', csrf_exempt(views.register_book)),
     url('get_book/(?P<book_id>\\d+)', views.get_book),
+    url('register_return_book/', csrf_exempt(views.register_return_book))
 ]

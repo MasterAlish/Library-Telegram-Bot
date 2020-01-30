@@ -13,27 +13,6 @@ class State:
     SAVE_NAME = 2
 
 
-def load_books_from_api():
-    return json.loads(requests.get(API_BASE_URL + "/api/get_all_books/").text)
-
-
-def get_book(book_key):
-    for book in load_books_from_api():
-        if book_key == book['name']:
-            return book
-        return False
-
-
-def get_books(book_pattern):
-    result = []
-    book_pattern = re.escape(book_pattern) + '.*'
-    for book in load_books_from_api():
-        if book in load_books_from_api():
-            if re.match(book_pattern, book['name'], re.IGNORECASE) is not None:
-                result.append(book)
-    return result
-
-
 def save_user_name(telegram_id, fullname):
     response = requests.post(API_BASE_URL + "/api/register_user/", {
         "telegram_id": telegram_id,

@@ -43,6 +43,17 @@ search_books_handler = ConversationHandler(
 dispatcher.add_handler(search_books_handler)
 
 
+search_books_handler = ConversationHandler(
+    entry_points=[MessageHandler(TextFilter("Вернуть книгу"), books.return_book_init)],
+    states={
+        books.States.RETURN_BOOK_TAKING: [MessageHandler(Filters.text, books.return_book)],
+        books.States.CONFIRM_BOOK_RETURN: [MessageHandler(Filters.text, books.confirm_return_book)],
+    },
+    fallbacks=[[CommandHandler('cancel', i_am.cancel)]], persistent=True, name="Search Books"
+)
+dispatcher.add_handler(search_books_handler)
+
+
 dispatcher.add_handler(MessageHandler(Filters.text, alltext.handle_command))
 
 updater.start_polling()
