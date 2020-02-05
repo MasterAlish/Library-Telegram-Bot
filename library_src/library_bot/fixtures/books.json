@@ -1,0 +1,1282 @@
+[
+  {
+    "model": "library_bot.book",
+    "pk": 4,
+    "fields": {
+      "name": "1984. \u0421\u043a\u043e\u0442\u043d\u044b\u0439 \u0434\u0432\u043e\u0440",
+      "author": "\u0414\u0436\u043e\u0440\u0434\u0436 \u041e\u0440\u0443\u044d\u043b\u043b ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 5,
+    "fields": {
+      "name": "Agile \u0440\u0435\u0442\u0440\u043e\u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u0430 ",
+      "author": "\u042d\u0441\u0442\u0435\u0440 \u0414\u0435\u0440\u0431\u0438 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 6,
+    "fields": {
+      "name": "Building the future ",
+      "author": "Amy C. Edmondson",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 7,
+    "fields": {
+      "name": "Bureaucracy ",
+      "author": "Ludwig Von Mises ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 8,
+    "fields": {
+      "name": "Culture book 2014 ",
+      "author": "Zappos",
+      "year": 2003,
+      "count": "2"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 9,
+    "fields": {
+      "name": "Future shock",
+      "author": "Alvin Toffler ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 10,
+    "fields": {
+      "name": "Growth makes you happy",
+      "author": "Peter de keyzer ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 11,
+    "fields": {
+      "name": "HR-\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433",
+      "author": "\u041d\u0438\u043d\u0430 \u041e\u0441\u043e\u0432\u0438\u0446\u043a\u0430\u044f ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 12,
+    "fields": {
+      "name": "Huawei. Leadership, culture, and connectivity ",
+      "author": "Tian Tao ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 13,
+    "fields": {
+      "name": "Kyrgyzstan through children's art",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 14,
+    "fields": {
+      "name": "Leadership is upside down",
+      "author": "Silvia Damiano",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 15,
+    "fields": {
+      "name": "Manager's toolkit ",
+      "author": "Harvard",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 16,
+    "fields": {
+      "name": "Nation, state, and economy",
+      "author": "Ludwig Von Mises ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 17,
+    "fields": {
+      "name": "On innovation ",
+      "author": "HBR",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 18,
+    "fields": {
+      "name": "Oops! I'm the boss",
+      "author": "Henno Janmaat",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 19,
+    "fields": {
+      "name": "People first leadership",
+      "author": "Eduardo P. Braun ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 20,
+    "fields": {
+      "name": "Peopleware. Productive projects and teams ",
+      "author": "Tom Demarco, Timothy Lister ",
+      "year": 2003,
+      "count": "3"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 21,
+    "fields": {
+      "name": "PR \u0432 \u0441\u0444\u0435\u0440\u0435 \u043a\u043e\u043c\u043c\u0435\u0440\u0446\u0438\u0438",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 22,
+    "fields": {
+      "name": "Practices for scaling lean & agile development ",
+      "author": "Craig Larman, Bas Vodde",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 23,
+    "fields": {
+      "name": "Revolutionnary wealth",
+      "author": "Alvin Toffler ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 24,
+    "fields": {
+      "name": "sales enablement ",
+      "author": "Byron Matthews",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 25,
+    "fields": {
+      "name": "Slingshot",
+      "author": "Gabor George Burt ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 26,
+    "fields": {
+      "name": "Social Decision- making ",
+      "author": "Jaakko Pellosniemi ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 27,
+    "fields": {
+      "name": "The beauty of impact",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 28,
+    "fields": {
+      "name": "The digital transformation playbook",
+      "author": "David L. Rogers ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 29,
+    "fields": {
+      "name": "The evolution of civilizations ",
+      "author": "Carroll Quigly ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 30,
+    "fields": {
+      "name": "The new successful large account management ",
+      "author": "Robert B Miller ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 31,
+    "fields": {
+      "name": "The power of peers",
+      "author": "Leon Shapiro, Leo Bottary ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 32,
+    "fields": {
+      "name": "The third wave",
+      "author": "Alvin Toffler ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 33,
+    "fields": {
+      "name": "Total leadership",
+      "author": "Stewart D. Friedman",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 34,
+    "fields": {
+      "name": "Up the organization ",
+      "author": "Robert Townsend ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 35,
+    "fields": {
+      "name": "\u0410 \u0443 \u043c\u0435\u043d\u044f \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f?",
+      "author": "\u0421\u0430\u0439\u043c\u043e\u043d \u0425\u0430\u0440\u0442\u043b\u0438 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 36,
+    "fields": {
+      "name": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u043e\u0432",
+      "author": "\u0422.\u041d. \u0420\u044b\u0436\u0438\u043a\u043e\u0432\u0430 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 37,
+    "fields": {
+      "name": "\u0410\u0440\u043d\u043e\u043b\u044c\u0434 \u0428\u0432\u0430\u0440\u0446\u0435\u043d\u0435\u0433\u0433\u0435\u0440. \u0424\u0438\u0440\u043c\u0435\u043d\u043d\u044b\u0435 \u0443\u043f\u0440\u0430\u0436\u043d\u0435\u043d\u0438\u044f ",
+      "author": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041c\u0443\u0440\u0437\u0438\u043d",
+      "year": 2003,
+      "count": "2"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 38,
+    "fields": {
+      "name": "\u0410\u0442\u043b\u0430\u043d\u0442 \u0440\u0430\u0441\u043f\u0440\u0430\u0432\u0438\u043b \u043f\u043b\u0435\u0447\u0438 - 2 \u0447\u0430\u0441\u0442\u044c",
+      "author": "\u0410\u0439\u043d \u0420\u044d\u043d\u0434",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 39,
+    "fields": {
+      "name": "\u0410\u0445\u043c\u0430\u0442\u0431\u0435\u043a \u0421\u0443\u044e\u043c\u0431\u0430\u0435\u0432: \u0448\u0442\u0440\u0438\u0445\u0438 \u043a \u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u043f\u043e\u0440\u0442\u0440\u0435\u0442\u0443 9 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u0430",
+      "author": "\u0417.\u041a. \u041a\u0443\u0440\u043c\u0430\u043d\u043e\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 40,
+    "fields": {
+      "name": "\u0411\u0438\u0431\u043b\u0438\u044f \u0441\u0442\u0438\u043b\u044f",
+      "author": "\u041d. \u041d\u0430\u0439\u0434\u0435\u043d\u0441\u043a\u0430\u044f, \u0418. \u0422\u0440\u0443\u0431\u0435\u0446\u043a\u043e\u0432\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 41,
+    "fields": {
+      "name": "\u0411\u0438\u0431\u043b\u0438\u044f \u0441\u0442\u0438\u043b\u044f",
+      "author": "\u041d. \u041d\u0430\u0439\u0434\u0435\u043d\u0441\u043a\u0430\u044f, \u0418. \u0422\u0440\u0443\u0431\u0435\u0446\u043a\u043e\u0432\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 42,
+    "fields": {
+      "name": "\u0411\u0438\u0437\u043d\u0435\u0441 \u0432 \u0446\u0438\u0444\u0440\u043e\u0432\u0443\u044e \u044d\u043f\u043e\u0445\u0443 ",
+      "author": "\u041a\u0438\u0435\u0432\u0441\u0442\u0430\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 43,
+    "fields": {
+      "name": "\u0411\u0438\u0437\u043d\u0435\u0441-\u0440\u0435\u0441\u0442\u0430\u0440\u0442",
+      "author": "\u0411\u0430\u0440\u0440\u0438 \u041c\u043e\u043b\u044c\u0442\u0446",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 44,
+    "fields": {
+      "name": "\u0411\u043b\u043e\u043a\u0447\u0435\u0439\u043d \u0434\u043b\u044f \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "author": "\u0423\u0438\u043b\u044c\u044f\u043c \u041c\u043e\u0433\u0430\u0439\u0430\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 45,
+    "fields": {
+      "name": "\u0411\u043e\u0435\u0432\u043e\u0439 \u0433\u0438\u043c\u043d \u043c\u0430\u0442\u0435\u0440\u0438-\u0442\u0438\u0433\u0440\u0438\u0446\u044b",
+      "author": "\u042d\u043c\u0438 \u0427\u0443\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 46,
+    "fields": {
+      "name": "\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0438\u0434\u0435\u044f",
+      "author": "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041f\u0435\u0442\u0440\u043e\u0432\u0430 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 47,
+    "fields": {
+      "name": "\u0411\u0443\u0434\u0443\u0449\u0435\u0435 \u0440\u0430\u0437\u0443\u043c\u0430 ",
+      "author": "\u041c\u0438\u0442\u0438\u043e \u041a\u0430\u043a\u0443",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 48,
+    "fields": {
+      "name": "\u0412 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u043d\u0435\u0432\u0438\u043d\u043d\u043e\u0441\u0442\u0438 ",
+      "author": "\u0420\u0438\u0447\u0430\u0440\u0434 \u0411\u0440\u044d\u043d\u0441\u043e\u043d ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 49,
+    "fields": {
+      "name": "\u0412\u0435\u043b\u0438\u043a\u043e\u0439 \u043f\u043e\u0431\u0435\u0434\u0435 65 \u043b\u0435\u0442",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 50,
+    "fields": {
+      "name": "\u0412\u0437\u0440\u044b\u0432\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0430\u0436\u0438",
+      "author": "\u0410. \u041f\u0430\u0440\u0430\u0431\u0435\u043b\u043b\u0443\u043c",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 51,
+    "fields": {
+      "name": "\u0412\u0438\u0434\u0435\u043e\u0443\u0440\u043e\u043a\u0438 ",
+      "author": "\u0420\u0430\u0434\u0438\u0441\u043b\u0430\u0432 \u0413\u0430\u043d\u0434\u0430\u043f\u0430\u0441 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 52,
+    "fields": {
+      "name": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u0441\u0438\u043b\u0430 \u043b\u0438\u0434\u0435\u0440\u0430 ",
+      "author": "\u0414\u0436\u043e\u043d \u0423\u0438\u0442\u043c\u043e\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 53,
+    "fields": {
+      "name": "\u0412\u043e\u0432\u043b\u0435\u043a\u0430\u0439",
+      "author": "\u0413\u0440\u0435\u0433\u0433 \u041b\u0435\u0434\u0435\u0440\u043c\u0430\u043d ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 54,
+    "fields": {
+      "name": "\u0412\u044b\u0439\u0434\u0438 \u0438\u0437 \u0437\u043e\u043d\u044b \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u0430",
+      "author": "\u0411\u0440\u0430\u0439\u0430\u043d \u0422\u0440\u0435\u0439\u0441\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 55,
+    "fields": {
+      "name": "\u0432\u044b\u0441\u0442\u0443\u043f\u0430\u0442\u044c \u043b\u0435\u0433\u043a\u043e",
+      "author": "\u041c\u0430\u0440\u043a \u0410\u0442\u043a\u0438\u043d\u0441\u043e\u043d ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 56,
+    "fields": {
+      "name": "\u0413\u043b\u0430\u0437\u0430\u043c\u0438 \u0444\u0438\u0437\u0438\u043a\u0430",
+      "author": "\u0423\u043e\u043b\u0442\u0435\u0440 \u041b\u0435\u0432\u0438\u043d",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 57,
+    "fields": {
+      "name": "\u0413\u0440\u0443\u0437\u0438\u044f \u043a\u0430\u043d\u0442\u0438\u043f \u0440\u0435\u0444\u043e\u0440\u043c\u0430 \u0436\u0430\u0441\u0430\u0439 \u0430\u043b\u0434\u044b",
+      "author": "\u041b\u0430\u0440\u0438\u0441\u0430 \u0411\u0443\u0440\u0430\u043a\u043e\u0432\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 58,
+    "fields": {
+      "name": "\u0414\u0436\u0435\u043d\u043d\u0438 \u0413\u0435\u0440\u0445\u0430\u0440\u0434\u0442 ",
+      "author": "\u0422\u0435\u043e\u0434\u043e\u0440 \u0414\u0440\u0430\u0439\u0437\u0435\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 59,
+    "fields": {
+      "name": "\u0417\u0430\u0440\u0430\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 ",
+      "author": "\u0419\u043e\u043d\u0430 \u0411\u0435\u0440\u0433\u0435\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 60,
+    "fields": {
+      "name": "\u0418\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c",
+      "author": "\u0418.\u041a.\u0410\u0434\u0438\u0437\u0435\u0441",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 61,
+    "fields": {
+      "name": "\u0418\u0437\u043c\u0435\u0440\u044f\u0439\u0442\u0435 \u0441\u0430\u043c\u043e\u0435 \u0432\u0430\u0436\u043d\u043e\u0435 ",
+      "author": "\u0414\u0436\u043e\u043d \u0414\u043e\u0440\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 62,
+    "fields": {
+      "name": "\u0418\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u044f \u0441\u0447\u0430\u0441\u0442\u044c\u044f ",
+      "author": "\u0423\u0438\u043b\u044c\u044f\u043c \u0414\u044d\u0432\u0438\u0441 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 63,
+    "fields": {
+      "name": "\u0418\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433 ",
+      "author": "\u0412.\u0414. \u0421\u0435\u043a\u0435\u0440\u0438\u043d",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 64,
+    "fields": {
+      "name": "\u0418\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442 ",
+      "author": "\u0412.\u041c. \u041a\u043e\u0436\u0443\u0445\u0430\u0440 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 65,
+    "fields": {
+      "name": "\u0418\u0441\u043a\u0440\u0435\u043d\u043d\u044f\u044f \u043b\u043e\u044f\u043b\u044c\u043d\u043e\u0441\u0442\u044c. \u041a\u043b\u044e\u0447 \u043a \u0437\u0430\u0432\u043e\u0435\u0432\u0430\u043d\u0438\u044e \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u043d\u0430 \u0432\u0441\u044e \u0436\u0438\u0437\u043d\u044c",
+      "author": "\u0424\u0440\u0435\u0434 \u0420\u0430\u0439\u0445\u0435\u043b\u044c\u0434 (\u0420\u043e\u0431 \u041c\u0430\u0440\u043a\u0438)",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 66,
+    "fields": {
+      "name": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a. \u041a\u043d\u0438\u0433\u0430 2 ",
+      "author": "\u0410\u0439\u043d \u0420\u044d\u043d\u0434",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 67,
+    "fields": {
+      "name": "\u041a\u0430\u0434\u0440\u044b \u0438\u0437 \u0436\u0438\u0437\u043d\u0438 \u043c\u0435\u043d\u0434\u0436\u0435\u0440\u0430 \u043f\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443",
+      "author": "\u041b\u043e\u0433\u0438\u043d\u043e\u0432\u0430 , \u0413\u0443\u0442\u0433\u0430\u0440\u0446",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 68,
+    "fields": {
+      "name": "\u041a\u0430\u0436\u0434\u0443\u044e \u043c\u0438\u043d\u0443\u0442\u0443 \u0440\u043e\u0436\u0434\u0430\u0435\u0442\u0441\u044f \u0435\u0449\u0435 \u043e\u0434\u0438\u043d \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u044c",
+      "author": "\u0414\u0436\u043e \u0412\u0438\u0442\u0430\u043b\u0435 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 69,
+    "fields": {
+      "name": "\u041a\u0430\u043a \u043d\u0430\u0439\u0442\u0438 \u0445\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u043a\u0430 \u0438 \u0445\u043e\u0440\u043e\u0448\u0443\u044e \u0440\u0430\u0431\u043e\u0442\u0443",
+      "author": "\u041c\u0438\u0430\u0445\u0438\u043b \u041b\u0438\u0442\u0432\u0430\u043a",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 70,
+    "fields": {
+      "name": "\u041a\u0430\u043a \u043f\u0438\u0441\u0430\u0442\u044c \u0442\u0430\u043a, \u0447\u0442\u043e\u0431\u044b \u0432\u0430\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u043b\u0438 - \u0427\u0430\u0441\u0442\u044c \u0432\u0442\u043e\u0440\u0430\u044f ",
+      "author": "\u041a\u0435\u043d\u043d\u0435\u0442 \u0420\u043e\u0443\u043c\u0430\u043d, \u0414\u0436\u043e\u044d\u043b \u0420\u0430\u0444\u0430\u044d\u043b\u044c\u0441\u043e\u043d",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 71,
+    "fields": {
+      "name": "\u041a\u0430\u043a \u043f\u0438\u0441\u0430\u0442\u044c \u0445\u043e\u0440\u043e\u0448\u043e",
+      "author": "\u0423\u0438\u043b\u044c\u044f\u043c \u0417\u0438\u043d\u0441\u0435\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 72,
+    "fields": {
+      "name": "\u041a\u0430\u043a \u044d\u0442\u043e \u043f\u043e\u043d\u0438\u043c\u0430\u0442\u044c?",
+      "author": "\u041c\u044d\u0440\u0438 \u0420\u0438\u0447\u0430\u0440\u0434\u0441 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 73,
+    "fields": {
+      "name": "\u041a\u0430\u0440\u044c\u0435\u0440\u0430 \u043c\u0435\u043d\u0434\u0436\u0435\u0440\u0430",
+      "author": "\u041b\u0438 \u042f\u043a\u043e\u043a\u043a\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 74,
+    "fields": {
+      "name": "\u041a\u043d\u0438\u0433\u0430 \u0431\u043b\u0430\u0436\u0435\u043d\u0441\u0442\u0432 ",
+      "author": "\u0410\u043d\u043d\u0430 \u0420\u0438\u0432\u0435\u043b\u043e\u0442\u044d",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 75,
+    "fields": {
+      "name": "\u041a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430 \u0438 \u0435\u0435 \u043e\u0431\u043e\u0440\u043e\u0442\u043d\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u0431\u0440\u044d\u043d\u0434\u0438\u043d\u0433",
+      "author": "\u042d. \u0414\u0436\u0430\u043c\u0430\u043d\u0431\u0430\u0435\u0432",
+      "year": 2003,
+      "count": "5"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 76,
+    "fields": {
+      "name": "\u041a\u0440\u0430\u0442\u043a\u0438\u0439 \u0430\u043d\u0433\u043b\u043e-\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0438\u0437\u043c\u043e\u0432 ",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 77,
+    "fields": {
+      "name": "\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430 \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e",
+      "author": "\u0420\u043e\u0431\u0435\u0440\u0442 \u041a\u0438\u0433\u0430\u043d, \u041b\u0430\u0439\u0437\u0430 \u041b\u0435\u0439\u0445\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 78,
+    "fields": {
+      "name": "\u041a\u0430\u0439\u0434\u0437\u0435\u043d. \u041a\u043b\u044e\u0447 \u043a \u0443\u0441\u043f\u0435\u0445\u0443 \u044f\u043f\u043e\u043d\u0441\u043a\u0438\u0445 \u043a\u043e\u043c\u0430\u043f\u043d\u0438\u0439 ",
+      "author": "\u041c\u0430\u0441\u0430\u0430\u043a\u0438 \u0418\u043c\u0430\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 79,
+    "fields": {
+      "name": "\u041b\u0438\u0434\u0435\u0440\u0441\u0442\u0432\u043e",
+      "author": "\u0414.\u0422\u0440\u0430\u043c\u043f",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 80,
+    "fields": {
+      "name": "\u041b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d ",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 81,
+    "fields": {
+      "name": "\u041b\u0443\u0447\u0448\u0438\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 - \u044d\u0442\u043e \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u0430",
+      "author": "\u0411\u0438\u043b\u043b \u041f\u0440\u0430\u0439\u0441, \u0414\u044d\u0432\u0438\u0434 \u0414\u0436\u0430\u0444\u0444\u0435",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 82,
+    "fields": {
+      "name": "\u041c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442 \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u0439 ",
+      "author": "\u042e.\u041f. \u0410\u043d\u0438\u0441\u0438\u043c\u043e\u0432 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 83,
+    "fields": {
+      "name": "\u041c\u0438\u0440\u043e\u0432\u043e\u0439 \u043f\u043e\u0440\u044f\u0434\u043e\u043a ",
+      "author": "\u0413\u0435\u043d\u0440\u0438 \u041a\u0438\u0441\u0441\u0438\u043d\u0434\u0436\u0435\u0440 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 84,
+    "fields": {
+      "name": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0438 \u0432 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u0440\u0446\u0438\u0438 \u0438 \u0431\u0438\u0437\u043d\u0435\u0441\u0435",
+      "author": "\u041b.\u041f. \u0413\u0430\u0432\u0430\u0440\u0438\u043b\u043e\u0432, \u0421.\u0412. \u0421\u043e\u043a\u043e\u043b\u043e\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 85,
+    "fields": {
+      "name": "\u041c\u043e\u0437\u0433\u043e\u0443\u0441\u043a\u043e\u0440\u0438\u0442\u0435\u043b\u0438",
+      "author": "\u0420\u0438\u0447\u0430\u0440\u0434 \u041d\u0438\u0441\u0431\u0435\u0442\u0442",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 86,
+    "fields": {
+      "name": "\u041c\u044b \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0431\u0435\u0434\u0438\u0442\u044c",
+      "author": "\u0414. \u0421\u043e\u043a\u043e\u043b\u043e\u0432-\u041c\u0438\u0442\u0440\u0438\u0447",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 87,
+    "fields": {
+      "name": "\u041d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a \u0438 \u0443\u0447\u0435\u043d\u0438\u043a",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 88,
+    "fields": {
+      "name": "\u041d\u0430\u0448 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c \u0441\u0435\u0440\u0432\u0438\u0441\u0430",
+      "author": "\u0420\u0438\u0447\u0430\u0440\u0434 \u041e\u0443\u044d\u043d, \u041b\u0430\u0443\u0440\u0430 \u0411\u0440\u0443\u043a\u0441",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 89,
+    "fields": {
+      "name": "\u041d\u0435 \u043e\u0447\u0435\u0432\u0438\u0434\u043d\u043e. \u041a\u0430\u043a \u0432\u044b\u044f\u0432\u0438\u0442\u044c \u0442\u0440\u0435\u043d\u0434\u044b \u0440\u0430\u043d\u044c\u0448\u0435 \u0434\u0440\u0443\u0433\u0438\u0445",
+      "author": "\u0420\u043e\u0445\u0438\u0442 \u0411\u0445\u0430\u0440\u0433\u0430\u0432\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 90,
+    "fields": {
+      "name": "\u041d\u043e\u043c\u0435\u0440 1. \u041a\u0430\u043a \u0441\u0442\u0430\u0442\u044c \u043b\u0443\u0447\u0448\u0438\u043c \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0442\u044b \u0434\u0435\u043b\u0430\u0435\u0448\u044c",
+      "author": "\u0418\u0433\u043e\u0440\u044c \u041c\u0430\u043d\u043d",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 91,
+    "fields": {
+      "name": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "author": "\u042d\u0434\u0432\u0438\u043d \u041d\u0435\u0432\u0438\u0441",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 92,
+    "fields": {
+      "name": "\u041e\u0441\u043d\u043e\u0432\u044b \u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0440\u0438\u0441\u043a\u0430",
+      "author": "\u0420\u0438\u0447\u0430\u0440\u0434 \u0410\u043f\u043e\u0441\u0442\u043e\u043b\u0438\u043a ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 93,
+    "fields": {
+      "name": "\u041f\u0435\u0440\u0435\u043b\u043e\u043c\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442",
+      "author": "\u041c\u0430\u043b\u044c\u043a\u043e\u043b\u044c\u043c \u0413\u043b\u0430\u0434\u0443\u044d\u043b\u043b",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 94,
+    "fields": {
+      "name": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434 \u043a \u0433\u043e\u043b\u0443\u0431\u043e\u043c\u0443 \u043e\u043a\u0435\u0430\u043d\u0443 ",
+      "author": "\u0412. \u0427\u0430\u043d \u041a\u0438\u043c",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 95,
+    "fields": {
+      "name": "\u041f\u0438\u0448\u0438, \u0441\u043e\u043a\u0440\u0430\u0449\u0430\u0439",
+      "author": "\u041c\u0430\u043a\u0441\u0438\u043c \u0418\u043b\u044c\u044f\u0445\u043e\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 96,
+    "fields": {
+      "name": "\u041f\u043e\u043c\u043e\u0433\u0438\u0442\u0435 \u0438\u043c \u0432\u044b\u0440\u0430\u0441\u0442\u0438 \u0438\u043b\u0438 \u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0443\u0445\u043e\u0434\u044f\u0442",
+      "author": "\u0411\u0435\u0432\u0435\u0440\u043b\u0438 \u041a\u0435\u0439, \u0414\u0436\u0443\u043b\u0438\u044f \u0414\u0436\u0443\u043b\u0438\u043e\u043d\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 97,
+    "fields": {
+      "name": "\u041f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0435 \u043d\u0430\u0432\u0435\u0447\u043d\u043e",
+      "author": "\u0414\u0436\u0438\u043c \u041a\u043e\u043b\u043b\u0438\u043d\u0437, \u0414\u0436\u0435\u0440\u0440\u0438 \u041f\u043e\u0440\u0440\u0430\u0441 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 98,
+    "fields": {
+      "name": "\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442\u0430 ",
+      "author": "\u0420\u0438\u0447\u0430\u0440\u0434 \u0422\u0435\u043c\u043f\u043b\u0435\u0440 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 99,
+    "fields": {
+      "name": "\u041f\u0440\u043e\u0434\u0430\u0436\u0438 \u043d\u0430 100%",
+      "author": "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u0418\u0432\u0430\u043d\u043e\u0432\u0430 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 100,
+    "fields": {
+      "name": "\u041f\u0440\u044b\u0433\u043d\u0438 \u0432\u044b\u0448\u0435 \u0433\u043e\u043b\u043e\u0432\u044b ",
+      "author": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b \u0413\u043e\u043b\u0434\u0441\u043c\u0438\u0442 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 101,
+    "fields": {
+      "name": "\u041f\u0443\u0442\u044c \u0434\u0435\u043b\u044c\u0444\u0438\u043d\u0430 ",
+      "author": "\u0428\u0438\u043c\u0438 \u041a\u0430\u043d\u0433",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 102,
+    "fields": {
+      "name": "\u041f\u0443\u0442\u044c \u0441\u043a\u0440\u0430\u043c-\u043c\u0430\u0441\u0442\u0435\u0440\u0430 ",
+      "author": "\u0417\u0443\u0437\u0430\u043d\u043d\u0430 \u0428\u043e\u0445\u043e\u0432\u0430 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 103,
+    "fields": {
+      "name": "\u0420\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u043b\u0438\u0434\u0435\u0440\u043e\u0432 ",
+      "author": "\u0418.\u041a.\u0410\u0434\u0438\u0437\u0435\u0441",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 104,
+    "fields": {
+      "name": "\u0420\u0443\u0441\u0441\u043a\u043e-\u043a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c",
+      "author": "\u0410.\u0418. \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432, \u0421.\u041c\u0443\u0441\u0430\u0435\u0432 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 105,
+    "fields": {
+      "name": "\u0421/\u0421++ \u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 \u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f",
+      "author": "\u0422.\u0410. \u041f\u0430\u0432\u043b\u043e\u0432\u0441\u043a\u0430\u044f ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 106,
+    "fields": {
+      "name": "\u0421\u0435\u0434\u044c\u043c\u043e\u0435 \u0447\u0443\u0432\u0441\u0442\u0432\u043e \u043f\u043e\u0434 \u0437\u043d\u0430\u043a\u043e\u043c \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0443\u0435\u043c\u043e\u0441\u0442\u0438",
+      "author": "\u0414\u0436\u043e\u0448\u0443\u0430 \u041a\u0443\u043f\u0435\u0440 \u0410\u043c\u043e",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 107,
+    "fields": {
+      "name": "\u0421\u0442\u0440\u0430\u043d\u043d\u0430\u044f \u0434\u0435\u0432\u043e\u0447\u043a\u0430, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0432\u043b\u044e\u0431\u0438\u043b\u0430\u0441\u044c \u0432 \u043c\u043e\u0437\u0433 ",
+      "author": "\u0412\u0435\u043d\u0434\u0438 \u0421\u0443\u0437\u0443\u043a\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 108,
+    "fields": {
+      "name": "\u0422\u0432\u043e\u0440\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043c\u043f\u0430\u0441",
+      "author": "\u0414\u044d\u043d \u041c\u0438\u043b\u043b\u043c\u0430\u043d, \u0421\u044c\u0435\u0440\u0440\u0430 \u041f\u0440\u0430\u0441\u0430\u0434\u0430 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 109,
+    "fields": {
+      "name": "\u0422\u0435\u043a\u0441\u0442\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0432\u0435\u0440\u044f\u0442",
+      "author": "\u041f\u0435\u0442\u0440 \u043f\u0430\u043d\u0434\u0430",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 110,
+    "fields": {
+      "name": "\u0422\u0435\u043e\u0440\u0438\u044f \u0418\u0433\u0440 ",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 111,
+    "fields": {
+      "name": "\u0422\u0435\u043f\u043b\u0430\u044f \u0447\u0430\u0448\u043a\u0430 \u0432 \u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0439 \u0434\u0435\u043d\u044c ",
+      "author": "\u0422\u0430\u043b\u044c\u043c\u0430 \u041b\u043e\u0431\u0435\u043b\u044c ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 112,
+    "fields": {
+      "name": "\u0422\u0440\u0435\u0442\u044c\u044f \u0432\u043e\u043b\u043d\u0430 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0430",
+      "author": "\u0421\u0442\u0438\u0432 \u041a\u0435\u0439\u0441 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 113,
+    "fields": {
+      "name": "\u0423\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043d\u0443\u043c\u0438\u0437\u043c\u0430\u0442\u0438\u043a\u0430",
+      "author": "\u0410.\u0410. \u0429\u0435\u043b\u043e\u043a\u043e\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 114,
+    "fields": {
+      "name": "\u0423\u043d\u0435\u0441\u0435\u043d\u043d\u044b\u0435 \u0432\u0435\u0442\u0440\u043e\u043c",
+      "author": "\u041c\u0430\u0440\u0433\u0430\u0440\u0435\u0442 \u041c\u0438\u0442\u0447\u0435\u043b",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 115,
+    "fields": {
+      "name": "\u0424\u0438\u0437\u0438\u043a\u0430 \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043e",
+      "author": "\u041c\u0438\u0442\u0438\u043e \u041a\u0430\u043a\u0443",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 116,
+    "fields": {
+      "name": "\u0424\u0438\u043d.\u043d\u0430\u0434\u0437\u043e\u0440 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438 \u0438 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 117,
+    "fields": {
+      "name": "\u0427\u0435\u0440\u043d\u0430\u044f \u0440\u0438\u0442\u043e\u0440\u0438\u043a\u0430",
+      "author": "\u041a\u0430\u0440\u0441\u0442\u0435\u043d \u0411\u0440\u0435\u0434\u0435\u043c\u0430\u0439\u0435\u0440 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 118,
+    "fields": {
+      "name": "\u042b\u0441\u044b\u043a-\u043a\u043e\u043b, \u0441\u0435\u043d\u0438 \u0441\u0443\u0439\u0434\u0443\u043c",
+      "author": "\u0410\u043b\u044b\u043a\u0443\u043b \u041e\u0441\u043c\u043e\u043d\u043e\u0432 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 119,
+    "fields": {
+      "name": "\u042d\u0432\u0435\u0440\u0435\u0441\u0442. \u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 ",
+      "author": "\u0410. \u0411\u0443\u043a\u0440\u0435\u0435\u0432, \u0413. \u0412\u0435\u0441\u0442\u043e\u043d \u0414\u0435\u0443\u043e\u043b\u0442 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 120,
+    "fields": {
+      "name": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u0438\u044f",
+      "author": "\u0412.\u0412. \u0420\u0430\u0434\u0430\u0435\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 121,
+    "fields": {
+      "name": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u0438\u044f",
+      "author": "\u0412.\u0418. \u0412\u0435\u0440\u0445\u043e\u0432\u0438\u043d, \u0412.\u0418. \u0417\u0443\u0431\u043a\u043e\u0432 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 122,
+    "fields": {
+      "name": "\u041a\u0430\u0439\u0434\u0437\u0435\u043d. \u041a\u043b\u044e\u0447 \u043a \u0443\u0441\u043f\u0435\u0445\u0443 \u044f\u043f\u043e\u043d\u0441\u043a\u0438\u0445 \u043a\u043e\u043c\u0430\u043f\u043d\u0438\u0439 ",
+      "author": "\u041c\u0430\u0441\u0430\u0430\u043a\u0438 \u0418\u043c\u0430\u0438",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 123,
+    "fields": {
+      "name": "\u0414\u0435\u043b\u0430\u0439 \u0434\u0435\u043d\u044c\u0433\u0438",
+      "author": "\u0422\u0435\u0440\u0440\u0438 \u041f\u0440\u0430\u0442\u0447\u0435\u0442\u0442",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 124,
+    "fields": {
+      "name": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0443\u0447\u0438\u0442\u0435\u043b\u044c",
+      "author": "\u0427. \u0410\u0439\u0442\u043c\u0430\u0442\u043e\u0432",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 125,
+    "fields": {
+      "name": "\u0421\u0443\u0440\u0430\u043a\u0441\u044b\u0437 \u043e\u043a\u0443\u043c",
+      "author": "\u041a. \u0418\u043b\u0438\u044f\u0437\u0431\u0435\u043a\u043e\u0432 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 126,
+    "fields": {
+      "name": "\u0414\u0443\u0439\u043d\u043e \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0442\u0435\u0440\u0438\u043d\u0438\u043d \u043e\u0439 \u0431\u0435\u0440\u043c\u0435\u0442\u0442\u0435\u0440\u0438 ",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 127,
+    "fields": {
+      "name": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a (\u043a\u043d\u0438\u0433\u0430 2)",
+      "author": "\u0410\u0439\u043d \u0420\u044d\u043d\u0434 ",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 128,
+    "fields": {
+      "name": "Large-scale scrum",
+      "author": "Craig Larman Bas Vodde",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 129,
+    "fields": {
+      "name": "\u0426\u0435\u043b\u044c",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 130,
+    "fields": {
+      "name": "\u0421\u0438\u043b\u044c\u043d\u0435\u0439",
+      "author": "Unknown",
+      "year": 2003,
+      "count": "1"
+    }
+  },
+  {
+    "model": "library_bot.book",
+    "pk": 131,
+    "fields": {
+      "name": "\u041d\u0435 \u0441\u0434\u043e\u0445\u043d\u0438, \u0435\u0434\u0430",
+      "author": "\u041c.\u0413\u0440\u0435\u0433\u0433\u0435\u0440",
+      "year": 2003,
+      "count": "1"
+    }
+  }
+]
