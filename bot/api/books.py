@@ -22,10 +22,10 @@ class Api(object):
         return None
 
     @staticmethod
-    def register_book_taking(book_id, telegram_id):
+    def register_book_taking(name, telegram_id):
         response = requests.post(API_BASE_URL + "/api/register_book/", {
             "telegram_id": telegram_id,
-            "book_id": book_id,
+            "book_name": name,
         })
         return response.status_code == 200
 

@@ -1,4 +1,4 @@
-from telegram import ReplyKeyboardMarkup
+from telegram import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext.conversationhandler import ConversationHandler
 
 from api.books import Api
@@ -6,6 +6,18 @@ from api.books import Api
 
 def show_book_actions(update):
     reply_keyboard = [['Поиск книги', 'Взять книгу', 'Вернуть книгу']]
+    keyboard_markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
+    update.message.reply_text('Выберите действие', reply_markup=keyboard_markup)
+
+
+def take_and_return_book(update):
+    reply_keyboard = [['Взять книгу', 'Вернуть книгу']]
+    keyboard_markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
+    update.message.reply_text('Выберите действие', reply_markup=keyboard_markup)
+
+
+def search_book_action(update):
+    reply_keyboard = [['Поиск книги']]
     keyboard_markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
     update.message.reply_text('Выберите действие', reply_markup=keyboard_markup)
 
@@ -52,20 +64,29 @@ def search_books(update, context):
 
 def take_book_init(update, context):
     context.bot.send_message(chat_id=update.message.chat_id,
-                             text="Введите номер книги чтобы зарегистрировать ее на вас:")
+                             text="Введите ключевое слово книги чтобы зарегистрировать ее на вас:")
     return States.REGISTER_BOOK_TAKING
 
 
 def register_taking_book(update, context):
     try:
-        book_id = int(update.message.text)
-        book = Api.find_book_by_id(book_id)
-        if book:
-            show_yes_no(f"Вы хотите взять книгу \"{book['name']}\"", update)
-            context.user_data["book_id_to_take"] = book_id
+        book_name = update.message.text
+        books = Api.get_books_from_api(book_name)
+        books_list = [
+            f"{book['id']}. {book['name']}: {book['author']}"
+            for book in books
+        ]
+        book_for_registration = [
+            f"{book['name']}"
+            for book in books
+        ]
+        books_str = "\n".join(books_list)
+        if len(books):
+            show_yes_no(f"Вы хотите взять книгу \"{books_str}\"", update)
+            context.user_data["book_name_to_take"] = book_for_registration
             return States.CONFIRM_BOOK_TAKING
         else:
-            context.bot.send_message(chat_id=update.message.chat_id, text="Книга с таким номером не найдена")
+            context.bot.send_message(chat_id=update.message.chat_id, text="Книга с таким названием не найдена")
             show_book_actions(update)
             return ConversationHandler.END
     except Exception as e:
@@ -78,12 +99,14 @@ def register_taking_book(update, context):
 def confirm_taking_book(update, context):
     answer = update.message.text
     if answer == 'Да':
-        book_id = context.user_data["book_id_to_take"]
-        success = Api.register_book_taking(book_id, update.effective_user.id)
+        book_name = context.user_data["book_name_to_take"]
+        success = Api.register_book_taking(book_name, update.effective_user.id)
         if success:
-            context.bot.send_message(chat_id=update.message.chat_id, text="Книга успешно зарегистрирована на вас")
+            context.bot.send_message(chat_id=update.message.chat_id, text="Книга успешно зарегистрирована на вас. \nНапоминаю, что книгу необходимо вернуть в течение 3 недель. Приятного чтения!")
+            show_book_actions(update)
         else:
             context.bot.send_message(chat_id=update.message.chat_id, text="Не удалось зарегистрировать книгу")
+            show_book_actions(update)
         return ConversationHandler.END
     else:
         context.bot.send_message(chat_id=update.message.chat_id, text="Ну ок")
@@ -93,17 +116,27 @@ def confirm_taking_book(update, context):
 
 def return_book_init(update, context):
     context.bot.send_message(chat_id=update.message.chat_id,
-                             text="Введите номер книги для ее возврата:")
+                             text="Введите ключевое слово названия книги для ее возврата:")
     return States.RETURN_BOOK_TAKING
 
 
 def return_book(update, context):
     try:
-        book_id = int(update.message.text)
-        book = Api.find_book_by_id(book_id)
-        if book:
-            show_yes_no(f"Вы хотите вернуть книгу \"{book['name']}\"", update)
-            context.user_data["book_id_to_take"] = book_id
+        book_name = update.message.text
+        books = Api.get_books_from_api(book_name)
+        books_list = [
+            f"{book['id']}. {book['name']}: {book['author']}"
+            for book in books
+        ]
+        book_for_return = [
+            f"{book['id']}"
+            for book in books
+        ]
+        book_id = int(book_for_return[0])
+        books_str = "\n".join(books_list)
+        if len(books):
+            show_yes_no(f"Вы хотите вернуть книгу \"{books_str}\"", update)
+            context.user_data["book_id_to_return"] = book_id
             return States.CONFIRM_BOOK_RETURN
         else:
             context.bot.send_message(chat_id=update.message.chat_id, text="Книга с таким номером не найдена")
@@ -119,12 +152,14 @@ def return_book(update, context):
 def confirm_return_book(update, context):
     answer = update.message.text
     if answer == 'Да':
-        book_id = context.user_data["book_id_to_take"]
+        book_id = context.user_data["book_id_to_return"]
         success = Api.register_return_book(book_id, update.effective_user.id)
         if success:
             context.bot.send_message(chat_id=update.message.chat_id, text="Вы успешно вернули книгу")
+            show_book_actions(update)
         else:
             context.bot.send_message(chat_id=update.message.chat_id, text="Не удалось вернуть книгу")
+            show_book_actions(update)
         return ConversationHandler.END
     else:
         context.bot.send_message(chat_id=update.message.chat_id, text="Ну ок")

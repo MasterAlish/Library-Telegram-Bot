@@ -1,14 +1,12 @@
 from django.utils import timezone
 from django.http import JsonResponse
 from django.http.response import HttpResponse
-from django.shortcuts import  get_object_or_404
 
 from library_bot import models
 from django.db.models import Q
 
 SUCCESS = "SUCCESS"
 ERROR = "ERROR"
-timezone.now()
 
 
 def response(status, data, message=None, status_code=200):
@@ -77,13 +75,13 @@ def register_user(request, *args, **kwargs):
 def register_book(request, *args, **kwargs):
     if request.method == "POST":
         telegram_id = request.POST.get("telegram_id", "")
-        book_id = request.POST.get("book_id", "")
-        if telegram_id and book_id:
+        book_name = request.POST.get("book_name", "")
+        if telegram_id and book_name:
             users = models.User.objects.filter(telegram_id=telegram_id)
-            books = models.Book.objects.filter(id=book_id)
+            books = models.Book.objects.filter(name=book_name)
             if users.exists() and books.exists():
                 user = models.User.objects.get(telegram_id=telegram_id)
-                book = models.Book.objects.get(pk=book_id)
+                book = models.Book.objects.get(name=book_name)
                 models.UseLog.objects.create(
                     user_id=user,
                     book_id=book,
@@ -102,10 +100,10 @@ def register_book(request, *args, **kwargs):
 
 def register_return_book(request, *args, **kwargs):
     if request.method == 'POST':
-        book = request.POST.get("book_id", "")
         telegram = request.POST.get("telegram_id", "")
+        book = request.POST.get("book_id", "")
         date = request.POST.get("return_date", "")
-        if book and telegram:
+        if telegram and book:
             book = models.Book.objects.filter(id=book)
             user = models.User.objects.filter(telegram_id=telegram)
             if book.exists() and user.exists():
