@@ -75,13 +75,13 @@ def register_user(request, *args, **kwargs):
 def register_book(request, *args, **kwargs):
     if request.method == "POST":
         telegram_id = request.POST.get("telegram_id", "")
-        book_name = request.POST.get("book_name", "")
-        if telegram_id and book_name:
+        book_id = request.POST.get("book_id", "")
+        if telegram_id and book_id:
             users = models.User.objects.filter(telegram_id=telegram_id)
-            books = models.Book.objects.filter(name=book_name)
+            books = models.Book.objects.filter(id=book_id)
             if users.exists() and books.exists():
                 user = models.User.objects.get(telegram_id=telegram_id)
-                book = models.Book.objects.get(name=book_name)
+                book = models.Book.objects.get(id=book_id)
                 models.UseLog.objects.create(
                     user_id=user,
                     book_id=book,

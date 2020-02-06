@@ -37,6 +37,7 @@ search_books_handler = ConversationHandler(
     entry_points=[MessageHandler(TextFilter("Взять книгу"), books.take_book_init)],
     states={
         books.States.REGISTER_BOOK_TAKING: [MessageHandler(Filters.text, books.register_taking_book)],
+        books.States.SELECT_BOOK: [MessageHandler(Filters.text, books.select_book)],
         books.States.CONFIRM_BOOK_TAKING: [MessageHandler(Filters.text, books.confirm_taking_book)],
     },
     fallbacks=[[CommandHandler('cancel', i_am.cancel)]], persistent=True, name="Search Books"
@@ -48,6 +49,7 @@ search_books_handler = ConversationHandler(
     entry_points=[MessageHandler(TextFilter("Вернуть книгу"), books.return_book_init)],
     states={
         books.States.RETURN_BOOK_TAKING: [MessageHandler(Filters.text, books.return_book)],
+        books.States.SELECT_RETURN_BOOK: [MessageHandler(Filters.text, books.select_return_book)],
         books.States.CONFIRM_BOOK_RETURN: [MessageHandler(Filters.text, books.confirm_return_book)],
     },
     fallbacks=[[CommandHandler('cancel', i_am.cancel)]], persistent=True, name="Search Books"
