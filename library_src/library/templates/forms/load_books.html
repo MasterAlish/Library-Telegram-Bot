@@ -1,0 +1,29 @@
+<html>
+<head>
+    <style>
+        .message{
+            color: black;;
+            background-color: #e7fce6;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Загрузить книги с xlsx файла</h2>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {{ form }}
+
+            <input type="submit" value="Загрузить">
+        </form>
+
+        {% if read_books_count > 0 %}
+            <div class="message">Загружено {{ read_books_count }} книг</div>
+        {% endif %}
+    </div>
+</body>
+</html>
